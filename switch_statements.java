@@ -44,7 +44,35 @@ public class switch_statements {
                 break;
             default :
                 System.out.println("Enter a valid number");
-        }       
+        }    
+        
+        //  **************New updates that was made in switch statements*************
+
+        // String day = "Monday";
+
+        // switch (day){
+        //     case "Saturday", "Sunday" -> System.out.println("6 am");
+        //     case "Monday" -> System.out.println("8 am");
+        //     default -> System.out.println("7 am");
+        // }
+
+        // *******************OR**********************
+
+        // String result = "";
+        // switch(day){
+        //     case "Saturday", "Sunday" -> result = "6 am";
+        //     case "Monday" -> result = "8 am";
+        //     default -> result = "7 am";
+        // }
+
+        // ****************OR********************
+
+        // String result = "";
+        // result = switch(day){
+        //     case "Saturday", "Sunday" -> "6 am";
+        //     case "Monday" -> "8 am";
+        //     default -> "7 am";
+        // };
     }
 }
 
