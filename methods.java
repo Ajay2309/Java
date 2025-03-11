@@ -7,7 +7,9 @@ class computer
 
     public String getMePen(int cost)
     {
-        return "Pen";
+        if (cost >= 10)
+            return "Pen";
+        return "Nothing";
     }
 }
 
@@ -17,7 +19,7 @@ public class methods {
         obj.playMusic();
         // obj.getMePen(10);   // this wiss not work
 
-        String str = obj.getMePen(2);
+        String str = obj.getMePen(20);
         System.out.println(str);
 
     }
