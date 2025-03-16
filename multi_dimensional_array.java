@@ -6,12 +6,13 @@ public class multi_dimensional_array {
 
         for(int i=0; i<3; i++)
         {
-            for(int j=0; i<4; j++)
+            for(int j=0; j<4; j++)
             {
                 nums [i] [j] = (int)(Math.random() * 10);
+                // System.out.println(nums [i] [j]);   // just for checking
             }
         }
-
+ 
         for(int i=0; i<3; i++)
         {
             for(int j=0; j<4; j++)
@@ -20,7 +21,18 @@ public class multi_dimensional_array {
             }
             System.out.println();
         }
+        System.out.println();
         
+        // using different type of loops
+
+        for (int n[] : nums )
+        {
+            for(int m: n)
+            {
+                System.out.print(m + " ");
+            }
+            System.out.println();
+        }
     }
     
 }
