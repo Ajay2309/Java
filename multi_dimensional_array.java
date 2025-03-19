@@ -9,7 +9,7 @@ public class multi_dimensional_array {
             for(int j=0; j<4; j++)
             {
                 nums [i] [j] = (int)(Math.random() * 10);
-                // System.out.println(nums [i] [j]);   // just for checking
+                // System.out.println(nums [i] [j]);   // just for checking the process
             }
         }
  
