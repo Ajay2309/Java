@@ -6,7 +6,7 @@ public class jagged_and_3D_Array {
 		nums[1]=new int [4];
 		nums[2]=new int [2];
 		
-		// int nums[][]=new int [3][4];
+		// int nums[][]=new int [3][4];    // two dimensional
 		// int nums[][][]=new int [3][4][5];  // three dimensional
 		
 		for(int i=0;i<nums.length;i++)
